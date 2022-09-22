@@ -121,7 +121,7 @@ services:
         depends_on:
             - php-apache
     varnish:
-        build: ./varnish/varnish6
+        build: ./varnish/varnish7
         hostname: varnish
         domainname: "${APPDOMAIN}"
         #expose:
